@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/iClass2020/static/css/main.db3b3f40.chunk.css",
+    "main.js": "/iClass2020/static/js/main.accab44b.chunk.js",
+    "main.js.map": "/iClass2020/static/js/main.accab44b.chunk.js.map",
+    "runtime-main.js": "/iClass2020/static/js/runtime-main.13b5ccdb.js",
+    "runtime-main.js.map": "/iClass2020/static/js/runtime-main.13b5ccdb.js.map",
+    "static/css/2.64a99b10.chunk.css": "/iClass2020/static/css/2.64a99b10.chunk.css",
+    "static/js/2.9c7e4a71.chunk.js": "/iClass2020/static/js/2.9c7e4a71.chunk.js",
+    "static/js/2.9c7e4a71.chunk.js.map": "/iClass2020/static/js/2.9c7e4a71.chunk.js.map",
+    "index.html": "/iClass2020/index.html",
+    "precache-manifest.0eb24b72021fd4a9698c16fd68c7c324.js": "/iClass2020/precache-manifest.0eb24b72021fd4a9698c16fd68c7c324.js",
+    "service-worker.js": "/iClass2020/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/iClass2020/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.db3b3f40.chunk.css.map": "/iClass2020/static/css/main.db3b3f40.chunk.css.map",
+    "static/media/index.css": "/iClass2020/static/media/rainbows_and_fireworks.25a28064.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13b5ccdb.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.9c7e4a71.chunk.js",
+    "static/css/main.db3b3f40.chunk.css",
+    "static/js/main.accab44b.chunk.js"
+  ]
+}

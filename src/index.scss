@@ -1,0 +1,65 @@
+@mixin mediaQuery ($arg) {
+    @media screen and (max-width: $arg) {
+        @content
+    }
+}
+
+body {
+    background-image: url('./img/rainbows_and_fireworks.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Lato;
+    h1 {
+        color: #fff;
+        font-size: 10rem;
+        font-weight: bold;
+        margin-bottom: 0;
+        @include mediaQuery(765px) {
+            font-size: 6rem;
+        }
+    }
+
+    h3 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        @include mediaQuery(765px) {
+            font-size: 20px;
+        }
+    }
+    .row {
+        margin: 1rem auto;
+        #time__up {
+            margin: 0 auto;
+            font-size: 2.5rem;
+            color: #F43EB1;
+            font-weight: bold;
+        }
+    }
+    #time__div {      
+        #time {
+            background-color: #F43EB1;
+            margin: 2px auto;
+            padding: 10px;
+            border-radius: 3px;
+            @include mediaQuery(765px) {
+                width: 4.8rem;
+            }
+            h6 {
+                color: #fff;
+                font-size: 30px;
+                font-weight: bold;
+                margin: 0;
+                @include mediaQuery(765px) {
+                 font-size: 20px;
+                }
+            }
+            span {
+                color: #fff;
+                font-size: 15px;
+                font-weight: bold;
+            }
+        }
+    } 
+}
